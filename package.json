@@ -1,0 +1,26 @@
+{
+  "name": "kindle-upload",
+  "version": "1.0.0",
+  "description": "Kindle upload",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khangtrannn/kindle-upload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khangtrannn/kindle-upload/issues"
+  },
+  "homepage": "https://github.com/khangtrannn/kindle-upload#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "formidable": "^2.0.1",
+    "nodemon": "^2.0.20"
+  }
+}
